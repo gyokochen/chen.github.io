@@ -39,7 +39,7 @@ if(!localStorage.getItem('name'))
 else 
 {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Mozilla is cool, ' + storedName;
+    myHeading.textContent = '我和' + myName + "时光";
 }
 //first loading
 
