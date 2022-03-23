@@ -39,7 +39,7 @@ if(!localStorage.getItem('name'))
 else 
 {
     let storedName = localStorage.getItem('name');
-    myHeading.textContent = '我和' + storeName + '时光';
+    myHeading.textContent = '我和' + storedName + '时光';
 }
 //first loading
 
